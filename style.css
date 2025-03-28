@@ -1,0 +1,54 @@
+body {
+    background-color: #2a2a2a;
+}
+
+h1 {
+    text-align: center;
+    margin-top: autos;
+    font-family: 'Yu Gothic UI', 'Arial Narrow', Arial, sans-serif;
+    color: #ffffff;
+}
+
+h3 {
+    text-align: center;
+    margin-top: autos;
+    
+    font-family: 'Yu Gothic UI', 'Arial Narrow', Arial, sans-serif;
+    color: #ffffff;
+}
+
+/* Download buttons */
+#android_button, #windows_button, #macOS_button {
+    display: block;
+    width: 200px;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: rgb(0, 120, 0);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+
+#android_button:hover, #windows_button:hover, #macOS_button:hover {
+    background-color: rgb(0, 180, 0);
+}
+
+/* GitHub Repository */
+#github_repo {
+    display: block;
+    width: 200px;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: rgb(0, 120, 0);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+
+#github_repo {
+    background-color: rgb(0, 180, 0);
+}
